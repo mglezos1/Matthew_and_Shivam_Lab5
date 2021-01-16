@@ -1,3 +1,9 @@
+LAb 5 for software development methodologies for Prof Dhruvin's class
+Made by Matthew Glezos and Shivam Rattan (group 1)
+
+Use docker, and Jenkins to test the pipeline for the project.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
