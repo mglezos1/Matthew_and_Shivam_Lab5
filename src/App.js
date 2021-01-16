@@ -62,7 +62,7 @@ function App() {
   return (
     <div className="App">
       <img src={logo} className="App-logo" alt="logo" />
-      <h1 className="header">Todo List</h1>
+      <h1 className="header">What Matthew and Shivam Need to Do</h1>
       {loading ? "Loading..." : (
         <TodoList
           todos={todos}
@@ -75,7 +75,7 @@ function App() {
         {saving ? "Saving..." : (
           <form onSubmit={addTodo}>
             <input type="text" onChange={onChange} />
-            <button type="submit">Add New Todo</button>
+            <button type="submit">Add to List</button>
           </form>
         )}
       </div>
